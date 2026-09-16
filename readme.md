@@ -1,6 +1,22 @@
-# 🚀 MotW-Preview-Fix - Repair Blocked PDF Previews in Windows Explorer
+<p align="center">
+  <img src="docs/logo.png" width="110" alt="MotW-Preview-Fix">
+</p>
 
-A lightweight, portable Windows utility that removes the MotW from PDFs in Order to show the preview in Windows Explorer.
+<h1 align="center">MotW-Preview-Fix</h1>
+
+<p align="center">
+  <b>Brings back the PDF preview that Windows blocks. One right-click, no renaming,
+  no timestamp changes. Nothing leaves your machine.</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/portable-yes-d93025?style=flat-square" alt="portable">
+  <img src="https://img.shields.io/badge/admin-optional-2b3a4a?style=flat-square" alt="admin rights">
+  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078d4?style=flat-square" alt="Windows">
+  <img src="https://img.shields.io/badge/AutoIt-v3-5D83AC?style=flat-square" alt="AutoIt">
+  <img src="https://img.shields.io/badge/telemetry-none-2ea36b?style=flat-square" alt="telemetry">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
+</p>
 
 ![MotW-Preview-Fix in action](docs/demo.gif)
 
@@ -197,6 +213,14 @@ Set-ItemProperty -Path $k -Name '(default)' -Value '{3A84F9C2-6164-485C-A7D9-4B2
 ```
 
 Restart Explorer afterwards. Remove the key to revert.
+
+----------
+
+## 📄 License
+
+MIT, see [LICENSE](LICENSE). Use it, fork it, ship it in your own tool. The one
+condition is attribution: keep the copyright notice and the licence text with
+any copy or substantial portion of the code.
 
 ----------
 
